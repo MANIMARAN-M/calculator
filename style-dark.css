@@ -23,8 +23,8 @@ kbd{
 	color: #3498db;
 	width: 120px;
 	height: 40px;
-	box-shadow:  -3px -3px 7px #00000c,
-				2px 2px 5px rgba(0, 0, 0, 0.79 );
+	box-shadow:  -3px -3px 7px #020226,
+				2px 2px 5px rgba(2, 2, 38, 1);
 }
 
 .calculator{
