@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html> 
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style-dark.css">
+</head>
+<body>
+	<div class="head-1">
+		<h1><kbd><ins>Simple Calculator</ins></kbd></h1>
+		<a href="index.html"><input type="button" name="" value="Normal Mode"></a>
+	</div>
+	
+	<div class="calculator">
+		<form action="#" name="form">
+			<div class="result">	
+				<input type="text" name="disp">
+			</div>
+			<div class="buttons">
+				<div class="row">
+					<input type="button" value ="7" name="v7" onclick="val(v7.value)" >
+					<input type="button" value ="8" name="v8" onclick="val(v8.value)">
+					<input type="button" value ="9" name="v9" onclick="val(v9.value)">
+					<input type="button" value ="+" name="add" onclick="val(add.value)">
+				</div>
+				<div class="row">
+					<input type="button" value ="4" name="v4" onclick="val(v4.value)">
+					<input type="button" value ="5" name="v5" onclick="val(v5.value)">
+					<input type="button" value ="6" name="v6" onclick="val(v6.value)">
+					<input type="button" value ="-" name="sub" onclick="val(sub.value)">
+				</div>
+				<div class="row">
+					<input type="button" value ="1" name="v1" onclick="val(v1.value)">
+					<input type="button" value ="2" name="v2" onclick="val(v2.value)">
+					<input type="button" value ="3" name="v3" onclick="val(v3.value)">
+					<input type="button" value ="*" name="mul" onclick="val(mul.value)">
+				</div>
+				<div class="row">
+					<input type="button" value ="0" name="v0" onclick="val(v0.value)">
+					<input type="button" value ="." name="vdot" onclick="val(vdot.value)">
+					<input type="button" value ="/" name="vdiv" onclick="val(vdiv.value)">
+					<input type="button" title=" click double time to clear result" value ="=" name="veql" onclick="calculate()">
+				</div>
+			</div>
+		</form>
+	</div>
+	<footer>
+		<kbd>Created by <strong>Manimaran M</strong></kbd>
+	</footer>
+	
+	<script type="">
+		function val(result){
+			form.disp.value =  form.disp.value + result;
+		}
+		function calculate(){
+			if (form.disp.value == "") {
+				alert("Please enter the value");
+			}else{
+				form.disp.value = eval(form.disp.value);
+			}
+		}
+		var btn = form.veql;
+		btn.addEventListener('dblclick', function(){
+			form.disp.value= ""; //when we click on equal button  
+		});
+	</script>
+</body>
+</html>
