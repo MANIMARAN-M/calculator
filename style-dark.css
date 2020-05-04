@@ -32,15 +32,15 @@ kbd{
 	background: #040210fc;
 	padding: 40px 30px;
 	border-radius: 10px;
-	box-shadow:  -3px -3px 7px #00000c,
-				2px 2px 5px rgba(0, 0, 0, 0.79 );
+	box-shadow:  -3px -3px 7px #020226,
+				2px 2px 5px rgba(2, 2, 38, 1 );
 }
 form .result{
 	height: 60px;
 	width: 100%;
 	background: #040210fc ;
-	box-shadow: inset  -3px -3px 7px  #00000c,
-				inset 2px 2px 5px rgba(0, 0, 0, 0.79 );
+	box-shadow: inset  -3px -3px 7px  #020226,
+				inset 2px 2px 5px rgba(2, 2, 38, 1 );
 }
 .result input{
 	cursor: pointer;
@@ -70,14 +70,14 @@ form .buttons{
 	outline: none;
 	color: #595959;
 	border-radius: 5px;
-	box-shadow:  -3px -3px 7px  #00000c,
-					 2px 2px 5px rgba(0, 0, 0, 0.79 );
+	box-shadow:  -3px -3px 7px  #020226,
+					 2px 2px 5px rgba(2, 2, 38, 1);
 }
 .buttons input[type="button"]:focus{
 	color: #3498db;
 	transform: scale(0.9);
-	box-shadow: inset -3px -3px 7px  #00000c,
-			inset 2px 2px 5px rgba(0, 0, 0, 0.79  );	
+	box-shadow: inset -3px -3px 7px  #020226,
+			inset 2px 2px 5px rgba(2, 2, 38, 1 );	
 }
 /*7, 20, 44, 0.79*/
 
