@@ -91,6 +91,11 @@ footer{
 footer kbd{
 	font-size: 15px;
 }
+@media only screen and (max-width: 700px){
+	.head-1 input{
+		margin-top: 50px;
+	}
+}
 
 
 
